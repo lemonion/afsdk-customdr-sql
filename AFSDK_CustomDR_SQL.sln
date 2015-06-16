@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFSDK_CustomDR_SQL", "AFSDK_CustomDR_SQL\AFSDK_CustomDR_SQL.csproj", "{4A91512F-9019-4B67-AE86-4E01E84B6B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDRTest", "SQLDRTest\SQLDRTest.csproj", "{F2051868-3B16-46BD-85C4-37A6122819FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A91512F-9019-4B67-AE86-4E01E84B6B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A91512F-9019-4B67-AE86-4E01E84B6B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A91512F-9019-4B67-AE86-4E01E84B6B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A91512F-9019-4B67-AE86-4E01E84B6B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2051868-3B16-46BD-85C4-37A6122819FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2051868-3B16-46BD-85C4-37A6122819FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2051868-3B16-46BD-85C4-37A6122819FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2051868-3B16-46BD-85C4-37A6122819FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
