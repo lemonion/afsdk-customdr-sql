@@ -10,13 +10,16 @@ using System.Threading;
 
 namespace SQLDRTest
 {
+
     class Program
     {
         static void Main(string[] args)
         {
+            // Connect to the AF server and database
             PISystem myAF = new PISystems()["DNG-AF2014"];
             AFDatabase myDB = myAF.Databases["Dev Support"];
            
+            // Create attribute list for attributes to be signed up for AFDataPipe
             AFElement myElement = myDB.Elements["CDR"];
             AFAttribute myAttribute1 = myElement.Attributes["cdt158"];
             AFAttribute myAttribute2 = myElement.Attributes["SQLDRTest"];
@@ -26,6 +29,7 @@ namespace SQLDRTest
             attrList.Add(myAttribute2);
             attrList.Add(myAttribute3);
             
+            // Get new events continuously until users enter any key in the console window
             using (AFDataPipe myDataPipe = new AFDataPipe())
             {
                 myDataPipe.AddSignups(attrList);
